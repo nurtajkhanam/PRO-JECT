@@ -1,9 +1,10 @@
 import React from "react";
 
 const Hello = () => {
+  var myName = "Nurtaj";
   return (
     <div>
-      <h3>Hello, this is the future speaking</h3>
+      <h2>Hello, this is future speaking. I'm a student {myName}</h2>
     </div>
   );
 };

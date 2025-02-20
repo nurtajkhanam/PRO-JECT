@@ -1,17 +1,15 @@
 import "./App.css";
-
 import React from "react";
+import Hello from "./Hello";
 import KgButton from "./KgButton";
 import Random from "./Random";
 
 const App = () => {
   return (
     <div>
+      <Random />
+      <Hello />
       <KgButton />
-      <Random />
-      <Random />
-      <Random />
-      <Random />
     </div>
   );
 };
